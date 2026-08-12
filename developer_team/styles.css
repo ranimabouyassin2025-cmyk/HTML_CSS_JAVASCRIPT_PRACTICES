@@ -1,0 +1,25 @@
+.Team{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+     gap:30px;
+      
+}
+ 
+
+    h1 {
+    text-align: center;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    height: 320px;
+    width:220px;
+    border: 1px solid #ccc;
+   border-radius: 20px;
+   padding: 20px;
+      
+}
+ 

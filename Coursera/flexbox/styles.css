@@ -1,0 +1,44 @@
+.container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    height:200px;
+    align-items:center;
+    gap:10px;
+}
+.Searchbar{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+     
+}
+.search{
+    flex:2;
+}
+.chart{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+    height:300px;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+.bar{
+    width: 90px; 
+    display:flex;
+    justify-content: center;
+}
+  .bar1{
+    height:50%;
+    background-color: brown;
+}
+.bar2{
+    height:80%;
+    background-color:blue;
+}
+.bar3 {
+    height: 30%;
+    background-color: aquamarine;
+}
