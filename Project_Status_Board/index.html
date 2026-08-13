@@ -1,53 +1,111 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Project Status Board</title>
-    <meta name="author" content="Ranim" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+
+    <meta name="author" content="Ranim">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
     <header>
-     <h1>Devboard</h1>
-       <img src="project_status_logo.png" alt="Profile" height="auto" width="auto">
-        <h1 class="name">Ranim</h1>
-        
-      
+        <h1>DEVBOARD</h1>
+
+        <div class="user">
+            <img src="project_status_logo.png" alt="Profile picture">
+            <p>Ranim</p>
+        </div>
     </header>
+
+
     <main>
-      <section class="projects">
-        <h2>PROJECTS</h2>
-        <p>Track your team's current work</p>
 
-      </section>
+        <section class="projects-heading">
+            <h2>PROJECTS</h2>
+            <p>Track your team's current work</p>
+        </section>
 
-      <section class="cards">
-        <div class="card">
-          <h2>Website Redesign</h2>
-          <p>Sarah</p>
-          <div class="bar b1">70%</div>
-          <p>Active</p>
-          <button>View Project</button>
-        </div>
-        <div class="card">
-          <h2>Mobile App</h2>
-          <p>Ahmad</p>
-          <div class="bar b2">40%</div>
-          <p>Planning</p>
-          <button>View Project</button>
-        </div>
-        <div class="card">
-          <h2>API development</h2>
-          <p>Ranim</p>
-          <div class="bar b3">85%</div>
-          <p>Active</p>
-          <button>View Project</button>
-        </div>
-      </section>
-      <script src="scripts.js"></script>
+
+        <section class="cards">
+
+            <!-- Card 1 -->
+            <div class="card">
+
+                <h2>Website Redesign</h2>
+
+                <div class="project-info">
+                    <p>Sarah</p>
+                    <p>70%</p>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress-value progress-70"></div>
+                </div>
+
+                <p class="status">Active</p>
+
+                <button>View Project</button>
+
+            </div>
+
+
+            <!-- Card 2 -->
+            <div class="card">
+
+                <h2>Mobile App</h2>
+
+                <div class="project-info">
+                    <p>Ahmad</p>
+                    <p>40%</p>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress-value progress-40"></div>
+                </div>
+
+                <p class="status">Planning</p>
+
+                <button>View Project</button>
+
+            </div>
+
+
+            <!-- Card 3 -->
+            <div class="card">
+
+                <h2>API Development</h2>
+
+                <div class="project-info">
+                    <p>Ranim</p>
+                    <p>85%</p>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress-value progress-85"></div>
+                </div>
+
+                <p class="status">Active</p>
+
+                <button>View Project</button>
+
+            </div>
+
+        </section>
+
     </main>
-    
-    <footer>Project Status Board</footer>
-  </body>
+
+
+    <footer>
+        <p>Project Status Board</p>
+    </footer>
+
+
+    <script src="scripts.js"></script>
+
+</body>
 </html>
