@@ -1,0 +1,33 @@
+*[href]{
+    color:rgb(5, 4, 3);
+}
+*[class]{
+    font-weight: bold;
+}
+a[href*="example"]{
+    background-color:rgb(165, 63, 63)
+}
+a[href="/contact"]{
+    color:blueviolet;
+}
+input[type="email"]{
+    border:1px solid black;
+}
+input[placeholder]{
+    border-color:blue;
+}
+li:first-child{
+    color:red;
+}
+li:nth-child(2){
+    color:blue;
+}
+li:nth-child(4){
+    color:rgb(119, 119, 164);
+}
+li:nth-child(odd){
+    color:rgb(238, 255, 0);
+}
+li:nth-child(3n){
+    color:rgb(134, 5, 167);
+}

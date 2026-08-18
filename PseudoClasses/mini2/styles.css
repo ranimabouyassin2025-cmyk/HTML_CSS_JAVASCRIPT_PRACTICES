@@ -1,0 +1,27 @@
+input:focus{
+    border: black 1px solid;
+}
+input:valid{
+    border: green 3px solid;
+}
+input:invalid{
+    border:red 3px solid;
+
+}
+input:disabled{
+    border:gray 3px solid;
+}
+input:enabled{
+    background-color: rgb(48, 50, 52);
+}
+input[type="checkbox"]:checked{
+        accent-color: brown;
+
+  
+}
+label::after{
+content:"?";
+}
+input[type="text"]::placeholder{
+    color:lightcoral;
+}

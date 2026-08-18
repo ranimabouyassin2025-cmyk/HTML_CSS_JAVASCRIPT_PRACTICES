@@ -1,0 +1,21 @@
+a{
+    text-decoration:none;
+    font-weight: bold;
+}
+a[href ]:link{
+color:blue;
+
+ 
+}
+a[href]:visited{
+    color:rgb(193, 38, 193);
+}
+a[href]:hover{
+    background: rgba(0, 0, 255, 0.215);
+}
+a[href]:active{
+    font-size: smaller;
+}
+a[href]:focus{
+    outline: auto;
+}

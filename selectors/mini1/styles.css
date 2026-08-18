@@ -1,0 +1,12 @@
+p{
+    background-color: blue;
+}
+p[class]{
+    font-weight: bold;
+}
+p:nth-child(2){
+    background-color: aqua;
+}
+p:nth-child(odd) {
+    background-color: blueviolet;
+}

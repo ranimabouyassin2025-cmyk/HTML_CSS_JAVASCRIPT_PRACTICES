@@ -1,0 +1,15 @@
+p{
+    color:rgb(54, 1, 1);
+}
+h1[id*="main-title"]{
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*[class="intro"]{
+    font-weight:bold;
+}
+*[class="primary"]{
+font-style: italic;
+}
+h1,p{
+    border:1px solid black;
+}    

@@ -1,0 +1,12 @@
+a{
+    color: rgb(163, 140, 23);
+}
+a[href]{
+    background-color: rgb(115, 111, 111);
+}
+a[href*="product"]{
+    border:2px solid black;
+}
+a[href="/contact"]{
+    border:3px solid green;
+}
